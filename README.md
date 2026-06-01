@@ -16,4 +16,8 @@ Mengintegrasikan berbagai sumber data dari sistem internal, kemudian menerapkan 
 ### 4. Hasil
 Sistem mampu mengolah data akademik dengan lebih efisien, mendukung pengambilan keputusan berbasis data atau data-driven decision making, serta mengatasi tantangan penyimpanan dan kecepatan akses data.
 
+
 # BigData-Pertemuan1
+---
+### Lesson Learned
+Pelajaran penting: Big Data bukan sekadar tentang menyimpan data yang banyak, tetapi tentang bagaimana data tersebut diolah untuk membantu pengambilan keputusan yang lebih akurat dan bermakna.
