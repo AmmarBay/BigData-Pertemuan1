@@ -31,8 +31,14 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 *   **Apache Flink:** Framework untuk pemrosesan *stream* data secara *real-time*.
 
 ### 3. Diagram Arsitektur
-(https://mermaid.ai/d/b5ba4dde-6cdd-4504-a692-1ce2215ed344)
-
+graph TD
+    subgraph Lambda
+    A[Data Stream] --> B(Batch Layer)
+    A --> C(Speed Layer)
+    B --> D(Serving Layer)
+    C --> D
+    end
+    
 ---
 ### Lesson Learned
 Pelajaran penting: Big Data bukan sekadar tentang menyimpan data yang banyak, tetapi tentang bagaimana data tersebut diolah untuk membantu pengambilan keputusan yang lebih akurat dan bermakna.
