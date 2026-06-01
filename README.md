@@ -35,10 +35,10 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 ```mermaid
 graph TD
     subgraph Lambda
-    A[Data Stream] --> B(Batch Layer)
-    A --> C(Speed Layer)
-    B --> D(Serving Layer)
-    C --> D(Serving Layer)
+    A[Data Stream] to B(Batch Layer)
+    A to C(Speed Layer)
+    B to D(Serving Layer)
+    C to D(Serving Layer)
     end
     
 ---
