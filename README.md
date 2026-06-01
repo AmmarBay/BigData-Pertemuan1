@@ -33,21 +33,8 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 ### 3. Diagram Arsitektur
 
 ```mermaid
-flowchart TB
- subgraph s1["Kappa"]
-        n1["Data Stream"]
-        n2["Stream Processing"]
-        n3["Output/Query"]
-  end
-    A["Data Stream"] --> B("Stream Processing")
-    B --> C("Output/Query")
-    n1 --> n2
-    n2 --> n3
-
-    n1@{ shape: rect}
-    n2@{ shape: rounded}
-    n3@{ shape: rounded}
-    
----
-### Lesson Learned
-Pelajaran penting: Big Data bukan sekadar tentang menyimpan data yang banyak, tetapi tentang bagaimana data tersebut diolah untuk membantu pengambilan keputusan yang lebih akurat dan bermakna.
+graph TD
+    A[Data Stream] --> B(Batch Layer)
+    A --> C(Speed Layer)
+    B --> D(Serving Layer)
+    C --> D
