@@ -37,4 +37,8 @@ graph TD
     A[Data Stream] --> B(Batch Layer)
     A --> C(Speed Layer)
     B --> D(Serving Layer)
-    C --> D
+    C --> D```
+
+---
+### Lesson Learned
+Pelajaran penting: Big Data bukan sekadar tentang menyimpan data yang banyak, tetapi tentang bagaimana data tersebut diolah untuk membantu pengambilan keputusan yang lebih akurat dan bermakna.
