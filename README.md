@@ -32,14 +32,20 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 
 ### 3. Diagram Arsitektur
 
-```mermaid
-graph TD
-    subgraph Lambda
-    A[Data Stream] to B(Batch Layer)
-    A to C(Speed Layer)
-    B to D(Serving Layer)
-    C to D(Serving Layer)
-    end
+flowchart TB
+ subgraph s1["Kappa"]
+        n1["Data Stream"]
+        n2["Stream Processing"]
+        n3["Output/Query"]
+  end
+    A["Data Stream"] --> B("Stream Processing")
+    B --> C("Output/Query")
+    n1 --> n2
+    n2 --> n3
+
+    n1@{ shape: rect}
+    n2@{ shape: rounded}
+    n3@{ shape: rounded}
     
 ---
 ### Lesson Learned
