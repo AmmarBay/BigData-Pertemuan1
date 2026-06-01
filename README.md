@@ -37,7 +37,8 @@ graph TD
     A[Data Stream] --> B(Batch Layer)
     A --> C(Speed Layer)
     B --> D(Serving Layer)
-    C --> D```
+    C --> D
+```
 
 ---
 ### Lesson Learned
