@@ -32,6 +32,7 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 
 ### 3. Diagram Arsitektur
 
+```mermaid
 flowchart TB
  subgraph s1["Kappa"]
         n1["Data Stream"]
