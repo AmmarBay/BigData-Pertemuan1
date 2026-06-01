@@ -14,4 +14,6 @@ Penggunaan infrastruktur dan metode Big Data untuk mengintegrasikan serta mengel
 Mengintegrasikan berbagai sumber data dari sistem internal, kemudian menerapkan pendekatan yang mampu menangani format data beragam yang tidak bisa ditangani oleh pengolahan data biasa.
 
 ### 4. Hasil
-Sistem mampu mengolah data akademik dengan lebih efisien, mendukung pengambilan keputusan berbasis data atau data-driven decision making, serta mengatasi tantangan penyimpanan dan kecepatan akses data.# BigData-Pertemuan1
+Sistem mampu mengolah data akademik dengan lebih efisien, mendukung pengambilan keputusan berbasis data atau data-driven decision making, serta mengatasi tantangan penyimpanan dan kecepatan akses data.
+
+# BigData-Pertemuan1
