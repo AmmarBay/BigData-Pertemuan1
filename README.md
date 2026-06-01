@@ -31,12 +31,11 @@ Data Sandbox adalah lingkungan aman dan terisolasi yang disediakan bagi analis u
 *   **Apache Flink:** Framework untuk pemrosesan *stream* data secara *real-time*.
 
 ### 3. Diagram Arsitektur
+
 graph TD
-    subgraph Lambda
-    A[Data Stream] --> B(Batch Layer)
-    A --> C(Speed Layer)
-    B --> D(Serving Layer)
-    C --> D
+    subgraph Kappa
+    A[Data Stream] --> B(Stream Processing)
+    B --> C(Output/Query)
     end
     
 ---
